@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+
+  <!-- TODO(you): Make whatever changes needed to complete the homework! -->
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--This ensures mobile browsers render at 100% zoom and use actual device width.-->
+    <title>Adopt A Dog To Reveal Your Personality Traits</title>
+    <link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="images/favicon-16x16.png" sizes="16x16" />
+    <link href="https://fonts.googleapis.com/css?family=Pangolin:400,700|Proxima+Nova" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="provided-style.css"/>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="constants.js" defer="true"></script>
+    <script src="script.js" defer="true"></script>
+  </head>
+
+  <body>
+    <article>
+      <header>
+          <h1 id="top">CSTP1106</h1>
+          <div>
+            <span>YAY</span>
+            <span>INT</span>
+            <span>ER</span>
+            <span>NET</span>
+          </div>
+      </header>
+      <h2>Adopt A Dog To Reveal A Deep Truth About Yourself</h2>
+      <hr>
+
+
+      <section class="question-name">
+        <h1>Pick a pup:</h1>
+      </section>
+       
+      <section class="choice-grid">
+        <div data-choice-id="blep" data-question-id="one">
+          <img id="blepDog" hover src="./images/blepdog.jpg"/> 
+          <div id = "blockUser">
+          <button type="button" id="clickable" onclick="changeBox()">
+          <img class = "box" id="checkbox" src="images/unchecked.png"/>
+          </button>
+          </div>
+        </div>
+
+        <div data-choice-id="happy" data-question-id="one">
+          <img id="happyDog" src="./images/happydog.jpg"/>
+          <button type="button" id="clickable2" onclick="changeBoxes()">
+          <img class = "box"id="checkbox1" src="images/unchecked.png"/>
+          </button>
+        </div>
+
+        <div data-choice-id="sleeping" data-question-id="one">
+          <img id="sleepingDog" src="./images/sleepingdog.jpg"/>
+          <button type="button" id="clickable3" onclick="boxChange()">
+          <img class = "box" id="checkbox2" src="images/unchecked.png"/>
+          </button>
+        </div>
+
+        <div data-choice-id="dopey" data-question-id="one">
+          <img id="dopeyDog" src="./images/dopeydog.jpg"/>
+          <button type="button" id="clickable4" onclick="BoxChange()">
+          <img class = "box" id="checkbox3" src="images/unchecked.png"/>
+          </button>
+        </div>
+
+        <div data-choice-id="burger" data-question-id="one">
+          <img id="burgerDog" src="./images/burgerdog.jpg"/>
+          <button type="button" id="clickable5" onclick="Changebox()">
+          <img class = "box" id="checkbox4" src="images/unchecked.png"/>
+          </button>
+        </div>
+
+        <div data-choice-id="cart" data-question-id="one">
+          <img id="cartDog" src="./images/cartdog.jpg"/>
+          <button type="button" id="clickable6" onclick="Imagechange()">
+          <img class = "box" id="checkbox5" src="images/unchecked.png"/>
+          </button>
+        </div>
+
+        <div data-choice-id="nerd" data-question-id="one">
+          <img id="nerdDog" src="./images/nerddog.jpg"/>
+          <button type="button" id="clickable7" onclick="imageChange()">
+          <img class = "box" id="checkbox6" src="images/unchecked.png"/>
+          </button>
+        </div>
+
+        <div data-choice-id="shy" data-question-id="one">
+          <img id="shyDog" src="./images/shydog.jpg"/>
+          <button type="button" id="clickable8" onclick="ImageChange()">
+          <img class = "box" id="checkbox7" src="images/unchecked.png"/>
+          </button>
+        </div>
+
+        <div data-choice-id="sleepy" data-question-id="one">
+          <img id="sleepyDog" src="./images/sleepydog.jpg"/>
+          <button type="button" id="clickable9" onclick="Changeimage()">
+          <img class = "box" id="checkbox8" src="images/unchecked.png"/>
+          </button>
+        </div>
+      </section>
+
+      <section class="question-name">
+        <h1>Pick a dog bed:</h1>
+      </section>
+
+      <section class="choice-grid">
+        <div data-choice-id="blep1" data-question-id="two">
+          <img id="blepBed" src="images/blepbed.jpg"/>
+          <button type="button" id="clickable10" onclick="ChangingImage()">
+          <img class = "box" id="checkbox9" src="images/unchecked.png"/>
+          </button>
+        </div>
+
+        <div data-choice-id="happy1" data-question-id="two">
+          <img id="happyBed" src="./images/happybed.jpg"/>
+          <button type="button" id="clickable11" onclick="ChangingImage2()">
+          <img class = "box" id="checkbox10" src="images/unchecked.png"/>
+          </button>
+        </div>
+
+        <div data-choice-id="sleeping1" data-question-id="two">
+          <img id="sleepingBed" src="./images/sleepingbed.jpg"/>
+          <button type="button" id="clickable12" onclick="ChangingImage3()">
+          <img class = "box" id="checkbox11" src="images/unchecked.png"/>
+          </button>
+        </div>
+
+        <div data-choice-id="dopey1" data-question-id="two">
+          <img id="dopeyBed" src="./images/dopeybed.jpg"/>
+          <button type="button" id="clickable13" onclick="ChangingImage4()">
+          <img class = "box" id="checkbox12" src="images/unchecked.png"/>
+          </button>
+        </div>
+
+        <div data-choice-id="burger1" data-question-id="two">
+          <img id="burgerBed" src="./images/burgerbed.jpg"/>
+          <button type="button" id="clickable14" onclick="ChangingImage5()">
+          <img class = "box" id="checkbox13" src="images/unchecked.png"/>
+          </button>
+        </div>
+
+        <div data-choice-id="cart1" data-question-id="two">
+          <img id="cartBed" src="./images/cartbed.jpg"/>
+           <button type="button" id="clickable15" onclick="ChangingImage6()">
+          <img class = "box" id="checkbox14" src="images/unchecked.png"/>
+          </button>
+        </div>
+
+        <div data-choice-id="nerd1" data-question-id="two">
+          <img id="nerdBed" src="./images/nerdbed.jpg"/>
+          <button type="button" id="clickable16" onclick="ChangingImage7()">
+          <img class = "box" id="checkbox15" src="images/unchecked.png"/>
+          </button>
+        </div>
+
+        <div data-choice-id="shy1" data-question-id="two">
+          <img id="shyBed" src="./images/shybed.jpg"/>
+          <button type="button" id="clickable17" onclick="ChangingImage8()">
+          <img class = "box" id="checkbox16" src="images/unchecked.png"/>
+          </button>
+        </div>
+
+        <div data-choice-id="sleepy1" data-question-id="two">
+          <img id="sleepyBed" src="./images/sleepybed.jpg"/>
+          <button type="button" id="clickable18" onclick="ChangingImage9()">
+          <img class = "box" id="checkbox17" src="images/unchecked.png"/>
+          </button>
+        </div>
+      </section>
+
+      <section class="question-name">
+        <h1>Pick a toy:</h1>
+      </section>
+
+      <section class="choice-grid">
+        <div data-choice-id="blep2" data-question-id="three">
+          <img id="blepToy" src="images/bleptoy.jpg"/>
+          <button type="button" id="clickable19" onclick="ChangingImage10(), stopUser(), addResult()">
+          <img class = "box" id="checkbox18" src="images/unchecked.png"/>
+          </button>
+        </div>
+
+        <div data-choice-id="happy2" data-question-id="three">
+          <img id="happyToy" src="./images/happytoy.jpg"/>
+          <button type="button" id="clickable20" onclick="ChangingImage11(), stopUser(), addResult()">
+          <img class = "box" id="checkbox19" src="images/unchecked.png"/>
+          </button>
+        </div>
+
+        <div data-choice-id="sleeping2" data-question-id="three">
+          <img id="sleepingToy" src="./images/sleepingtoy.jpg"/>
+          <button type="button" id="clickable21" onclick="ChangingImage12(), stopUser(), addResult()">
+          <img class = "box" id="checkbox20" src="images/unchecked.png"/>
+          </button>
+        </div>
+
+        <div data-choice-id="dopey2" data-question-id="three">
+          <img id="dopeyToy" src="./images/dopeytoy.jpg"/>
+          <button type="button" id="clickable22" onclick="ChangingImage13(), stopUser(), addResult()">
+          <img class = "box" id="checkbox21" src="images/unchecked.png"/>
+          </button>
+        </div>
+
+        <div data-choice-id="burger2" data-question-id="three">
+          <img id="burgerToy" src="./images/burgertoy.jpg"/>
+          <button type="button" id="clickable23" onclick="ChangingImage14(), stopUser(), addResult()">
+          <img class = "box" id="checkbox22" src="images/unchecked.png"/>
+          </button>
+        </div>
+
+        <div data-choice-id="cart2" data-question-id="three">
+          <img id="cartToy" src="./images/carttoy.jpg"/>
+          <button type="button" id="clickable24" onclick="ChangingImage15(), stopUser(), addResult()">
+          <img class = "box" id="checkbox23" src="images/unchecked.png"/>
+          </button>
+        </div>
+
+        <div data-choice-id="nerd2" data-question-id="three">
+          <img id="nerdToy" src="./images/nerdtoy.jpg"/>
+          <button type="button" id="clickable25" onclick="ChangingImage16(), stopUser(), addResult()">
+          <img class = "box" id="checkbox24" src="images/unchecked.png"/>
+          </button>
+        </div>
+
+        <div data-choice-id="shy2" data-question-id="three">
+          <img id="shyToy" src="./images/shytoy.jpg"/>
+          <button type="button" id="clickable26" onclick="ChangingImage17(), stopUser(), addResult()">
+          <img class = "box" id="checkbox25" src="images/unchecked.png"/>
+          </button>
+        </div>
+        <div data-choice-id="sleepy2" data-question-id="three">
+          <img id="sleepyToy" src="./images/sleepytoy.jpg"/>
+          <button type="button" id="clickable27" onclick="ChangingImage18(), stopUser(), addResult()">
+          <img class = "box" id="checkbox26" src="images/unchecked.png"/>
+          </button>
+      </section>     
+      </div>
+    <div id = resultsDisplay>  
+      <h2 id="blep"></h2>
+      <p id="blep2"></p>
+      <input type="button" onclick= restartQuiz() id="reset" value="Restart Quiz"></input>
+    </div>
+    </article>
+  </body>
+</html>
