@@ -1232,8 +1232,7 @@ function addResult() {
     }
 }
     function restartQuiz() {
-    //window.location.reload();
-            const blepResult = document.getElementById("blep");
+        const blepResult = document.getElementById("blep");
         const result = document.getElementById("reset");
         const blepResult2 = document.getElementById("blep2");
         result.style.visibility="hidden";
